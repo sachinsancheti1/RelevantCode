@@ -1,0 +1,65 @@
+
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+xcopy /c/Users/Sachin\ Sancheti/Pictures/test /f/
+
+cd f:\2006
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2007
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2008
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2009
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2010
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2011
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2012
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2013
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2014
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2015
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2016
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+cd f:\2017
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -resize 800x480\> *.jpg); done
+
+
+ gci -rec -file|%{"$($_.Fullname)`t$($_.Length)"} >filelist.txt
+
+
+Get-ChildItem -Recurse | Measure-Object -Sum Length >foldersize.txt
+
+
+xcopy /c/Users/Sachin\ Sancheti/Pictures/2017 /f/
+
+gci -rec -file|%{"$($_.Fullname)`t$($_.Length)"} >filelist.txt
