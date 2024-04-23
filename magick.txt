@@ -1,0 +1,26 @@
+convert *.jpg -resize 582x496^ -gravity center -crop 582x496+0+0 +repage -set page '+%[fx:u[t-1]page.x+u[t-1].w]+0' -background none -layers merge +repage append2.png
+
+montage *.jpg -resize 582x496^ -gravity center -crop 582x496+0+0 -tile 3x5 -geometry +1+1 -background none append2.png
+
+montage *.jpg -resize 582x496^ -gravity center -crop 582x496+0+0 -tile 5x3 -geometry +1+1 -background none append3.png
+
+convert -size 800x120 xc:black -font TrajanPro -pointsize 100 \
+-tile tile_disks.jpg   -annotate +20+80 'Vitrag' \
+-trim +repage  -bordercolor black  -border 10   funfont_groovy.png
+
+convert -define jpeg:size=200x200 001.jpg -thumbnail '100x100>' \
+-gravity center  -crop 120x120+0+0\! \
+-background backgrounf  -flatten    pad_view.jpg
+
+convert -define jpeg:size=1080x 001.jpg -thumbnail '1080x>' -background white -gravity center -extent 1748x2480 pad_extent.jpg
+
+convert -define jpeg:size *.jpg -thumbnail '1080x>' -background white -gravity south -extent 1748x2480+0-1000 pad_extent.jpg
+
+convert -define jpeg:size 001.jpg -thumbnail '1080x>' -background white -gravity south -extent 1748x2480+0-1000 -gravity Center -font TrajanPro-Regular -pointsize 30 -annotate +0+300 'Simple and breathtaking at the same time' pad_extent.jpg
+
+convert -define jpeg:size 001.jpg -thumbnail '1080x1350^' -background white -gravity South -extent 1748x2480+0-1000 -gravity South -font TrajanPro-Regular -pointsize 30 -annotate +0+100 'Simple and breathtaking at the same time.\nCREDIT:THE_REAL_HOUSES_OF_IG/HOLLUB HOMES' pad_extent.jpg
+
+convert -define jpeg:size 037.jpg -thumbnail '1080x1350^' -background white -gravity South -extent 1748x2480+0-1000 -gravity South -font TrajanPro-Regular -pointsize 30 -annotate +0+100 'It was timber frame again Holly House.\n It was so pretty I dont know why we sold it really. \nThe exterior wall colour we had mixed up and was a Laura Ashley colour Old Gold.\n The windows and porch were also Laura Ashley Creamware.\n Those shades complement each other so nicely.\n Its a wonderful feeling after all the hard work to stand back and see the results
+\n\n CREDIT:INGRID_LIDDARD_WALKER.BUILT IN 2008' pad_extent1.jpg
+
+convert -define jpeg:size 001.jpg -thumbnail '1080x1350^' -background white -gravity South -extent 1748x2480+0-1000 -gravity South -font TrajanPro-Regular -pointsize 30 -annotate +0+100 ' Simple and breathtaking at the same time\n\nCREDITS:the_real_houses_of_ig Hollub Homes' pad_extent1.jpg

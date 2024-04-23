@@ -1,0 +1,25 @@
+convert -background "#ffffff80" -fill black -pointsize 72 label:"View of Gokul Gardens" miff:- | composite -gravity south -geometry +0+100 - IMG_0280.jpg anno_composite.jpg
+
+convert -fill "#333333" -background "#ffffff80" -font Oswald -pointsize 150 label:"View of Gokul Gardens" miff:- | composite -gravity south -geometry +0+100 - IMG_0280.jpg anno_composite.jpg
+
+convert -fill "#333333" -background "rgba(255,255,255,1)" -font Calibri -pointsize 150 label:"View of Gokul Gardens" miff:- | composite -gravity south -geometry +0+100 - IMG_0280.jpg anno_composite.jpg
+
+convert xc:none -fill black -background "rgba(255,255,255,0.5)" -font Calibri -pointsize 150 label:"View of Gokul Gardens" miff:- | composite -gravity south -geometry +0+100 - IMG_0280.jpg anno_composite.jpg
+
+convert -background "rgba(255,255,255,0.5)" -fill black -gravity center caption:"View of Gokul Gardens" cap.png
+
+
+convert -background "#0008" -gravity center -fill "rgb(0,121,72)" -pointsize 72 label:"View of Gokul Gardens" IMG_0280.jpg +swap -gravity south -geometry +0+100 -composite funnysanta.jpg
+
+convert -background "rgb(255,254,153)" -gravity center -fill "rgb(0,121,72)" -pointsize 72 label:"View of Gokul Gardens" IMG_1180.JPG +swap -gravity south -geometry +0+100 -composite funnysanta.jpg
+
+
+convert -background "rgb(255,254,153)" -gravity center -fill "rgb(0,121,72)" -pointsize 72 label:"Elevation of Older part of Bungalow" 	IMG_1180.JPG +swap -gravity  -extend 1600x100 south -geometry +0-100 -composite funnysanta.jpg
+
+
+convert 00.jpg 00_l.jpg -background "rgb(255,254,153)" -gravity center -fill "rgb(0,121,72)" -pointsize 72 -set filename:f label:'filename:f' filename:f +swap -gravity  -extend 1600x100 south -geometry +0-100 -composite '%[filename:f]'
+
+convert 00.jpg 00_l.jpg    -scale 200% \
+          -set filename:f '%t_magnify.%e' +adjoin '%[filename:f]'
+
+convert -background "rgb(255,254,153)" -gravity center -fill "rgb(0,121,72)" -pointsize 72 label:'%t' 	00.jpg +swap -gravity south -geometry +0-100 -composite funnysanta.jpg

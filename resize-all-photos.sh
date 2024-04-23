@@ -1,0 +1,1 @@
+find . -name '*.jpg' -execdir mogrify -resize 1280x {} +

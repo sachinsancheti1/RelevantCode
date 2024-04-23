@@ -1,0 +1,57 @@
+cd adadi/
+for d in ./*/ ; do (cd "$d" && pwd); done
+for d in ./*/ ; do (cd "$d" && mogrify -strip *.JPG); done
+for d in ./*/ ; do (cd "$d" && mogrify -strip *.jpg); done
+for d in ./*/ ; do (cd "$d" && mkdir "thumbs"); done
+for d in ./*/ ; do (cd "$d" && mkdir "medium"); done
+
+for d in ./*/ ; do (cd "$d" && mogrify -path thumbs -format jpg -define jpeg:size:400x250 -thumbnail '200x125^' -gravity center -extent 200x125 '*.jpg'); done
+for d in ./*/ ; do (cd "$d" && mogrify -path medium -format jpg -define jpeg:size:2220x1350 -thumbnail '1110x675^' -gravity center -extent 1110x675 '*.jpg'); done
+
+
+for d in ./*/ ; do (cd "$d" && mogrify -path medium -format jpg -define jpeg:size:2220x1350 -thumbnail '1110x675^' -gravity center -extent 1110x675 '*.jpg'); done
+
+
+
+mogrify -path gray -format jpg -define jpeg:size:2220x1350 -thumbnail '1110x675^' -gravity center -extent 1110x675 -colorspace Gray '*.jpg'
+
+
+mogrify -strip *.jpg
+mkdir "thumbs"
+mkdir "medium"
+mkdir "cover"
+mogrify -path thumbs -format jpg -define jpeg:size:400x250 -thumbnail '200x125^' -gravity center -extent 200x125 '*.jpg'
+mogrify -path medium -format jpg -define jpeg:size:2220x1350 -thumbnail '1110x675^' -gravity center -extent 1110x675 '*.jpg'
+mogrify -path cover -format jpg -define jpeg:size:960x640 -thumbnail '480x320^' -gravity center -extent 480x320 '*-01.jpg'
+
+
+
+mogrify -strip *.jpg
+mkdir "medium"
+mogrify -path medium -format jpg -define jpeg:size:3840x2160 -thumbnail '1920x1080^' -gravity center -extent 1920x1080 '*.jpg'
+
+
+mogrify -strip *.jpg
+mkdir "medium"
+mogrify -path medium -format jpg -define jpeg:size:1600x960 -thumbnail '800x480^' -gravity center -extent 800x480 '*.jpg'
+
+Palm Meadows Thumbs
+mogrify -strip *.jpg
+mkdir "medium"
+mogrify -path medium -format jpg -define jpeg:size:780x1016 -thumbnail 198120@ -gravity center -extent 390x508 '*.jpg'
+
+convert -density 300 2019-12-19\ Serenitea.pdf serenitea-layout.jpg
+mogrify -resize 50% *-layout.jpg
+convert serenitea-layout.jpg -resize x144\> s-serenitea-layout.jpg
+
+
+mogrify -strip *.jpg
+mkdir "medium"
+mkdir "cover"
+mogrify -path medium -format jpg -thumbnail '1110x675^' -gravity center -extent 1110x675 '*.jpg'
+mogrify -path cover -format jpg -thumbnail '480x320^' -gravity center -extent 480x320 '*-01.jpg'
+
+
+
+
+convert *.jpg -format jpg -thumbnail '1280' Dawson-Bungalow-images.pdf

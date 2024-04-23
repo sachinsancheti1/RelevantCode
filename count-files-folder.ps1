@@ -1,0 +1,1 @@
+Get-ChildItem -Recurse -Directory | ForEach-Object {echo "$($_.Name)" (Get-ChildItem -Path "$($_.Name)" -Recurse -File | Measure-Object).Count} >acount.txt
