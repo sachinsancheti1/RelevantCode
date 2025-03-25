@@ -17,8 +17,8 @@
   )
 
   ;; Creating Building Floor Plan Layers with descriptions
-  (CreateLayer "A-WALL-EXT" "8" "0.50mm" "Exterior Walls")
-  (CreateLayer "A-WALL-STRC" "8" "0.40mm" "Load-Bearing Walls")
+  (CreateLayer "A-WALL-EXT" "8" "0.50" "Exterior Walls")
+  (CreateLayer "A-WALL-STRC" "8" "0.40" "Load-Bearing Walls")
     (CreateLayer "A-WALL-PART" "8" "0.35" "Partition Walls")
   (CreateLayer "A-WALL-FURR" "8" "0.25" "Furred or Thin Walls")
 

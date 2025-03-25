@@ -1,0 +1,62 @@
+{
+    "AutoCAD/LispTools/BreakUp.lsp": {
+        "source": "internet",
+        "author": "Kent Cooper",
+        "description": "Breaks lines and polylines into segments with gaps for non-continuous appearance.",
+        "url": "https://forums.autodesk.com/t5/visual-lisp-autolisp-and-general/break-a-line-to-n-numbers-of-segments/td-p/8730403"
+    },
+    "AutoCAD/LispTools/PolylineDimWidthHeight.lsp": {
+        "source": "internet",
+        "author": "Unknown (Autodesk forums)",
+        "description": "Places width and height dimensions for a closed polyline.",
+        "url": "https://forums.autodesk.com/t5/visual-lisp-autolisp-and-general/lisp-to-dimension-only-width-and-length-of-a-polyline/td-p/9411458"
+    },
+    "AutoCAD/LispTools/PLDiet.lsp": {
+        "source": "internet",
+        "author": "Kent Cooper",
+        "description": "Removes excessive vertices from polylines to simplify geometry.",
+        "url": "https://forums.autodesk.com/t5/visual-lisp-autolisp-and-general/weeding-out-the-polylines/td-p/9135932"
+    },
+    "AutoCAD/LispTools/TLENGTH____US_v101.lsp": {
+        "source": "internet",
+        "author": "Patrice Braud",
+        "description": "Calculates total length of selected lines and polylines.",
+        "url": "https://forums.autodesk.com/t5/visual-lisp-autolisp-and-general/total-length-of-polylines/td-p/8279489"
+    },
+    "AutoCAD/LispTools/ROTREF.lsp": {
+        "source": "internet",
+        "author": "Unknown",
+        "description": "Rotates object to align with a reference line.",
+        "url": "https://forums.autodesk.com/t5/visual-lisp-autolisp-and-general/changing-single-object-rotate-lsp-to-multiple/td-p/8599099"
+    },
+    "AutoCAD/LispTools/createCircles.lsp": {
+        "source": "internet",
+        "author": "SpiderInNet Blog",
+        "description": "Demonstrates creating circles using AutoLISP (benchmarking).",
+        "url": "https://spiderinnet1.typepad.com/blog/2011/02/create-circles-with-autocad-net-and-autolisp.html"
+    },
+    "AutoCAD/LispTools/PathAverage.lsp": {
+        "source": "internet",
+        "author": "Unknown (Autodesk KB)",
+        "description": "Creates a centerline between two selected polylines.",
+        "url": "https://knowledge.autodesk.com/support/autocad/learn-explore/caas/sfdcarticles/sfdcarticles/How-to-create-a-centerline-between-two-polylines.html"
+    },
+    "AutoCAD/Annotation/AD-Automatic Dimension Autocad.lsp": {
+        "source": "internet",
+        "author": "Stefan M. (Kim Projects)",
+        "description": "Automatically creates dimensions on selected objects.",
+        "url": "https://www.kimprojects.com/autocad-automatic-dimensioning-lisp/"
+    },
+    "AutoCAD/Annotation/CreateLeadersWithCounter.lsp": {
+        "source": "internet",
+        "author": "P. DuMont",
+        "description": "Creates leaders with auto-incremented numeric labels.",
+        "url": "https://www.cadtutor.net/forum/topic/63493-leaders-with-autonumbering/"
+    },
+    "AutoCAD/Annotation/CreateLegend.lsp": {
+        "source": "internet",
+        "author": "Lee Mac",
+        "description": "Counts and lists all block instances in drawing (nested support).",
+        "url": "https://www.lee-mac.com/nestedblockcounter.html"
+    }
+}

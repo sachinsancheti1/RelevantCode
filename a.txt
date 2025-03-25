@@ -1,0 +1,689 @@
+Folder PATH listing for volume Google Drive
+Volume serial number is 1983-1116
+G:.
+|   MIMR.xlsm
+|   SubDivide.lsp
+|   TallyTabular.bas
+|   filelistdeletions-c-e.xlsm
+|   Autoscaling-hand sketch to autocad.xlsx
+|   LICENSE
+|   README.md
+|   reorganize_repo.bat
+|   a.txt
+|   reorganize_repo_full.bat
+|   
++---Repeat-Stock
+|   |   Repeat-Stock.Rproj
+|   |   stocks-repeat.csv
+|   |   repeat.R
+|   |   .Rhistory
+|   |   .RData
+|   |   2019-04-11 Stock Labels.xlsx
+|   |   
+|   \---.Rproj.user
+|       +---shared
+|       |   \---notebooks
+|       |           patch-chunk-names
+|       |           paths
+|       |           
+|       \---7B0B2DEE
+|           |   rmd-outputs
+|           |   saved_source_markers
+|           |   
+|           +---console06
+|           |       INDEX001
+|           |       
+|           +---pcs
+|           |       source-pane.pper
+|           |       workbench-pane.pper
+|           |       files-pane.pper
+|           |       windowlayoutstate.pper
+|           |       
+|           +---viewer-cache
+|           |       1BD17EB7.Rdata
+|           |       AB3A3415.Rdata
+|           |       
+|           \---sources
+|               +---prop
+|               |       INDEX
+|               |       B6DDA549
+|               |       
+|               \---per
+|                   \---t
+|                           759DC91B
+|                           759DC91B-contents
+|                           B370AC9
+|                           B370AC9-contents
+|                           55BB538E-contents
+|                           55BB538E
+|                           
++---.git
+|   |   description
+|   |   HEAD
+|   |   config
+|   |   FETCH_HEAD
+|   |   ORIG_HEAD
+|   |   index
+|   |   COMMIT_EDITMSG
+|   |   
+|   +---info
+|   |       exclude
+|   |       
+|   +---hooks
+|   |       pre-receive.sample
+|   |       fsmonitor-watchman.sample
+|   |       update.sample
+|   |       pre-push.sample
+|   |       applypatch-msg.sample
+|   |       commit-msg.sample
+|   |       pre-commit.sample
+|   |       post-update.sample
+|   |       pre-rebase.sample
+|   |       prepare-commit-msg.sample
+|   |       pre-applypatch.sample
+|   |       
+|   +---logs
+|   |   |   HEAD
+|   |   |   
+|   |   \---refs
+|   |       +---heads
+|   |       |       master
+|   |       |       
+|   |       \---remotes
+|   |           \---origin
+|   |                   master
+|   |                   sachinsancheti1-patch-1
+|   |                   
+|   +---refs
+|   |   +---tags
+|   |   +---remotes
+|   |   |   \---origin
+|   |   |           master
+|   |   |           sachinsancheti1-patch-1
+|   |   |           
+|   |   \---heads
+|   |           master
+|   |           
+|   \---objects
+|       +---pack
+|       +---info
+|       +---d7
+|       |       5e02ff64d63ea0c08fd7a200551e22bc1144de
+|       |       881e7a42000cfeabdef1088a3b560860076fe9
+|       |       335e3dcd3559f4d78763f52e0a822579940948
+|       |       
+|       +---e7
+|       |       ae049d55dc6a519048169e6f29b5259a6354d0
+|       |       
+|       +---b5
+|       |       a8ad64acfd774739de8ab8f6745fd13d6857ea
+|       |       c867c122823375974e9fe4542da6108f03b2e3
+|       |       
+|       +---07
+|       |       5f791524dfb5a7847c71714d40b87b4f196587
+|       |       
+|       +---3e
+|       |       b73a4bbbdeb80e898143f85567f2f39f803dbe
+|       |       2e9b5153ec8c42093ee01e464c7c1fa5015d18
+|       |       
+|       +---50
+|       |       20f23e8d87c407a5d12aabb0d8832551e10a10
+|       |       e4b5f70135f4c35704e73a5ebb57cd32b80e28
+|       |       
+|       +---76
+|       |       84d92e4e86e1d743bbb345e362dd0dacc913b4
+|       |       
+|       +---24
+|       |       b18600107e34896d9eee4694a50201d35c0535
+|       |       9847ea9396578d22af700512cdba9f785da1f4
+|       |       
+|       +---f5
+|       |       89879f187e1029c8b12a9e23bc3e8c9f145ce9
+|       |       
+|       +---59
+|       |       d601b76f210120041524220e3cf60526718453
+|       |       
+|       +---c6
+|       |       c6c49ed6b9b144af4fad0173fdba59de33647b
+|       |       
+|       +---03
+|       |       193f1ebb3b55342bad6edf5f43afe2eb4d2b74
+|       |       3d104c4f53167d74fd17a360b62cf441eb44df
+|       |       
+|       +---8c
+|       |       9f7d69e0500c9e43c9a830833c73f499f5c8e2
+|       |       
+|       +---18
+|       |       4841923b2ffc4534a7e978cbdb936174aa1118
+|       |       
+|       +---8a
+|       |       b0790704718fcd7cae1b006ed730e654e2682e
+|       |       
+|       +---df
+|       |       72c10e6d30249d5f67a7331149002bf8040b5f
+|       |       23e02453d61d08f0dc9659e1550cbd3c8c17ca
+|       |       
+|       +---33
+|       |       0d7db1135d53fde4023522ab6ec4336cfc0d7b
+|       |       
+|       +---cb
+|       |       6329a42d0c5a3c40793efc75ae7c2abe2cb2b2
+|       |       bc31080d48709ccb8a3c82883c02c901d91d85
+|       |       
+|       +---8e
+|       |       3c2ebc99e2e337f7d69948b93529a437590b27
+|       |       
+|       +---e6
+|       |       9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+|       |       
+|       +---2d
+|       |       9a17eff0843ff51ad2e11e3d76b80ee428ed56
+|       |       
+|       +---17
+|       |       43e40fec30e357993d33f5cb053bf027524dc8
+|       |       5ab115ce01a286b3c9ed3aee2f80da516e3c46
+|       |       
+|       +---55
+|       |       aaabfbd9210cd3526ebc7791c3346b83465321
+|       |       cc597a2395badfde6ec99c67f205a8e89844a5
+|       |       
+|       +---b9
+|       |       6431b21709488a12c8aa19b91183fc7b315061
+|       |       
+|       +---67
+|       |       2fefe4f14469ba9dbe39d9100961a81dfe33cd
+|       |       17c7a397cc87dae7494690f52e2d0dbfcb24b2
+|       |       
+|       +---1d
+|       |       28d688476db497f3c411fd0107c45fa1539f7d
+|       |       644a8bde061bae9e7087a9c3b038589630c43c
+|       |       
+|       +---2b
+|       |       1bef112ac6921abda6162a65dbfcd8c6d55c80
+|       |       
+|       +---3f
+|       |       2ff2d6cc8f257ffcade7ead1ca4042c0e884b9
+|       |       
+|       +---e4
+|       |       b347cbe365982711bb69b42d7fcb1d9eaca7cc
+|       |       8c359f8874037d996c329c3f7f8f62f49381fd
+|       |       
+|       +---6f
+|       |       4024c38bf4eb40e547702e612b5185b26473ba
+|       |       
+|       +---e3
+|       |       33576fa4d899f9f6b0a313a6074c1dcd54f050
+|       |       b32321a157fd6dc9d9cf9bfeafb2b2437722a7
+|       |       
+|       +---06
+|       |       37a088a01e8ddab3bf3fa98dbe804cbde1a0dc
+|       |       
+|       +---dc
+|       |       e88a3ef53fa646d38f2c33b56677a812e4dc40
+|       |       1fc056d464fd03cb1f0dadc523af5959c74a6a
+|       |       
+|       +---2f
+|       |       66841814b9470e9a321fd53938956463bec588
+|       |       
+|       +---7f
+|       |       7814fc10435eb97087decd88d0544121c2166a
+|       |       82fb5afe1a0301e27845500cdd6250a393626b
+|       |       
+|       +---dd
+|       |       a1f44cb1a50fca595eab62316a6bba86c8b9f9
+|       |       
+|       +---b3
+|       |       7d8b95839f86a8b1d64c8cfe0eaf5e831edf2b
+|       |       
+|       +---f3
+|       |       45c34417a428c18fd14588e50b64e159e4b8f0
+|       |       2c4f7348b74808fea20d5f8f8675974117c023
+|       |       
+|       +---0e
+|       |       24b84668267375c3af4d7b1fa78f9deec24784
+|       |       fbe4a03b3fcfd9957fed3835ac626cebf53157
+|       |       
+|       +---af
+|       |       20c4ac16ede760a82714a827d90ab35210dbff
+|       |       
+|       +---5d
+|       |       04901d7b5fb3dbd30ce844ee5084588beb3273
+|       |       75a29bf34c39f2019db09c40aac0120d2033b1
+|       |       60f6a03df42c4633c66cebefb396c23a863f61
+|       |       2d5165051a73a070915c5b7aaaa9d03b307209
+|       |       
+|       +---81
+|       |       257570b4ff9a5a43e232be634215b3d7ac1610
+|       |       a0ebbbbf0e7c90c2c7aa4eaa0451e0e885dc00
+|       |       
+|       +---98
+|       |       eb58464c4ce3671f0162b823bec4f76d30e05a
+|       |       9cf68cefe504e71b22090d40e885d64d85e83a
+|       |       
+|       +---eb
+|       |       d94da15d8836d7fa8ff562712640fa812eeac3
+|       |       
+|       +---b6
+|       |       6a95fba215110ff4da32dabde175b66d8b75a2
+|       |       b4e7b9ce7e288d2ad9a188608ace73c276026f
+|       |       
+|       +---57
+|       |       832125b6cda2369b5834f8209a39e1a3491bde
+|       |       071ec85bf209f8c0776befcdab3105a927c897
+|       |       
+|       +---e1
+|       |       caf8e991a34f290832fd6596d7c29e98ae489b
+|       |       
+|       +---42
+|       |       e6ee24aec44880f89ea0153fcffa26a0dc92eb
+|       |       0986f7842da1cb7dca8cf99d322238e93ff1d2
+|       |       10e848fa81b885e66694f6905fccadb2f588f5
+|       |       
+|       +---d5
+|       |       7747f2d5707346f88f118cd26dbbb55e426167
+|       |       
+|       +---21
+|       |       246fd9ccd3b0375d420000ddf4e1611c96043b
+|       |       c940b3ad094d4202804e9073a03928c886e2fc
+|       |       
+|       +---32
+|       |       2f12a839351bd547f0dded45f9c8aff8d24790
+|       |       987c3fbb8b9521dccdf2d4bf001f8eebb03d43
+|       |       
+|       +---37
+|       |       b922ff898538b7b776361d2ce2565e95b6770c
+|       |       
+|       +---ec
+|       |       010242bde0c488e4e402fc0fc9cd1699e25b4a
+|       |       3ac8b1a83d37fc33b97da9e755ebc20bb1ad56
+|       |       
+|       +---85
+|       |       29cdbca3ed55e3b668ca7414b5fa69bb1725e7
+|       |       c43f5572268bb9d7c67e7b7b3b4b883d57e3c1
+|       |       
+|       +---51
+|       |       f6381cbf0648e7c4e3dd3c8aa2b483ea123ae9
+|       |       
+|       +---ce
+|       |       c0f76b8cf368db1937a7a62dbee68ffe0a0ae2
+|       |       
+|       +---45
+|       |       f12d41ec1f30be2e93b43ff737b6b48995d8c7
+|       |       9849b50bbe81cdb1962bcfa20fd6bbe129fcc4
+|       |       bc56f022a74b81d23b91097efb7aee81aeea6e
+|       |       
+|       +---05
+|       |       e23d540fcac2cb31b48c937f39989a34f68096
+|       |       
+|       +---73
+|       |       6c4640f5660a07c0a5ea5e08ef948d9e082519
+|       |       
+|       +---0a
+|       |       9913100f43d5d26b2ba0fecbe38d5b0b5b7492
+|       |       79d2de3074004a397320f396998579b2f21973
+|       |       
+|       +---4b
+|       |       300f4316e9d65a590beb5b4c0d152cb6f5cd58
+|       |       
+|       +---2e
+|       |       ced2199ed8d649e40a476780adce18e4e79da8
+|       |       a7ee3170a28a0c6af6c397bf2b871bebe23bc7
+|       |       450bae418b7461b94ca9b03f9a2fc88a872158
+|       |       
+|       +---3c
+|       |       f2bcf363b8871220278f52cf2ad86aeb7a499d
+|       |       3797865e12379c4929db930c12ebad86ca0e9a
+|       |       38c87dbdabe5f48a686d0f67de8b13153657cf
+|       |       
+|       +---38
+|       |       97a42725233229d94c74019b569f3e23e93f12
+|       |       
+|       +---c0
+|       |       84bfb1f9bfad506aac325144db090b5cd8ff9b
+|       |       
+|       +---7d
+|       |       57ff61b765edfbb7f6bfe260c13064ce4ad3fd
+|       |       
+|       +---f2
+|       |       88702d2fa16d3cdf0035b15a9fcbc552cd88e7
+|       |       8294d66be30933ede830bce4deeea78eac91bd
+|       |       
+|       +---b1
+|       |       ea08e77ad65ffcbd59a46aa03016a67a2185fa
+|       |       
+|       +---c7
+|       |       12c5af1dc1fb97e731adefa72e6d3f20def686
+|       |       
+|       +---69
+|       |       095d2df313abcc86dfce77f165d1df07506dbe
+|       |       
+|       +---86
+|       |       1bd0d2371f7b37c655051439c7ae39657e0069
+|       |       56d4193b6e7d21e287d5ef324c233ab67f2f1f
+|       |       
+|       +---8d
+|       |       4c32fcd413cf6906d08b36e763610861511684
+|       |       
+|       +---3d
+|       |       d09b47d666e35797718684a38bd9633b9e1dec
+|       |       
+|       +---39
+|       |       65d611dfa9c9e81f3fa7f74136ff0f8c5277ac
+|       |       
+|       +---2c
+|       |       ec81924289298d207bae522df33ba50da5cd5c
+|       |       e3404fd1a238dfefe5bafba17d125606d7a93e
+|       |       
+|       +---09
+|       |       51989a752820857c52b5dbdedde6c5b4f9efb9
+|       |       
+|       +---ca
+|       |       21df450483d2eed6be69cca713d9f94a36764a
+|       |       0556a230b9eca5cdee0091adbda47ca65ba2ef
+|       |       
+|       +---a3
+|       |       59f184c921ad2c76e89db391cd16272d2262e0
+|       |       
+|       +---80
+|       |       6de67846bfda3ebb1aa10845730e9829cc5c4d
+|       |       
+|       +---83
+|       |       28d49a7e4384eca47908d87132d6e0cb74c166
+|       |       
+|       +---6a
+|       |       2d5f2bcb4dd650ac4beff4266f7d17bc2020dd
+|       |       6bab180c223fa273b0e5ce2f193227de022ef7
+|       |       
+|       +---f0
+|       |       a67c02fe74facae595fd0937c5649761542a65
+|       |       
+|       +---88
+|       |       6e2de03a2e85a24465324cb3eca9add97d96d6
+|       |       
+|       +---b2
+|       |       d27467d2360b7e99f11a97e518efdcf30ce7da
+|       |       81a51e2c0a061b314972bccb52a569ea7cf6c2
+|       |       
+|       +---cf
+|       |       f2d0818ccc238be12b326e2f147f4a508cb6cf
+|       |       fd6d58a4611d5e833f8b949307fb5d743f8fb9
+|       |       
+|       +---b4
+|       |       a9738ad828c632106b78fcf6ca210729aa77ee
+|       |       91cf5ca62c9a20f8586c8f8092049b040479d7
+|       |       
+|       +---11
+|       |       b910dc019a0ccc962a59643944f11d37273d5c
+|       |       
+|       +---13
+|       |       87d061a95a3e1fc2b100c92f0be0240c0d086b
+|       |       a72c435e6d317f4b9233de5f2a5c3bf8013001
+|       |       
+|       +---4e
+|       |       47ad976c7a36a682181385f66b478a170f50db
+|       |       7def100563567a69e754985bf8ffb7084fbe51
+|       |       
+|       +---a6
+|       |       89c800e8084c4758bef2830ede3a5bd57fe8fc
+|       |       
+|       +---96
+|       |       d61c8cda0c4dcf088d13200233c7adfb5cc41e
+|       |       
+|       +---4a
+|       |       4136c01521c9228fa4a0e899ea094d39eea5f0
+|       |       
+|       +---9f
+|       |       930cbd3f9595645ccb29b7acd02de5b04b5ba1
+|       |       
+|       +---4c
+|       |       a58e5bc095a46d13a4cb5668bfde8c967f4ad0
+|       |       
+|       +---ef
+|       |       0179413333bd913d4fa10105c2b28d69dd2955
+|       |       
+|       +---90
+|       |       7215cd8a2df6ba30bd614a94456139c58bd1b1
+|       |       
+|       +---64
+|       |       f176260322fd5a2fa46ebe21d655b3444c8687
+|       |       aa77406b0a525f7e6a4c60895c2be81d72f90a
+|       |       
+|       +---31
+|       |       b6d56bd237ba23b7ca497a7477e83dfe3779f4
+|       |       fe783282c2c9d3d427cebe8b5c61178cee52f9
+|       |       
+|       +---29
+|       |       96c8b21921c6f6c315ba019878f10304b70247
+|       |       
+|       +---72
+|       |       d23167c2ea2f95333508cd397fce891beb3689
+|       |       256f117a1aca7fb2d290ab8d0eaa89e180de17
+|       |       
+|       +---6d
+|       |       f9d3d2d0eb3ef6e2b96290d08991e957145f8a
+|       |       
+|       +---7c
+|       |       1acd37b571fc3c79ebd6fca02aac6006c42465
+|       |       
+|       +---d0
+|       |       975f27d2a892736fe49c24341cca0db4392cdc
+|       |       
+|       +---99
+|       |       dee782797210b135b3d97d73010f145f6c8095
+|       |       
+|       +---0d
+|       |       f57494f1609d2a0c19fa3583c361d7ef453d9b
+|       |       
+|       +---04
+|       |       01a0854c5ad3984d12caaf6ee31c74766f43e8
+|       |       
+|       +---41
+|       |       17910280c8b561c8808d2e7fc476af22374f2e
+|       |       
+|       +---8f
+|       |       b4618a7047a15e53d1b1eada3163b080b07fe9
+|       |       
+|       +---54
+|       |       3b8bbf4a6e0668ae4d8df3ce42be7598fc18ec
+|       |       
+|       +---c5
+|       |       bc8480f41954dee2b5fda89e4a9203d9ff77dc
+|       |       
+|       +---91
+|       |       5cf23aa20118a98f88a84c659096b7a8b12707
+|       |       
+|       +---40
+|       |       0294da10fc3fb50fae3aac737d5337d0aa1454
+|       |       
+|       +---20
+|       |       f9dc5f7e0d0e77a20a522edd7cfd2ac2d9fc47
+|       |       36a791413e7cb89ba1ccc10ea40acbdfc88c2f
+|       |       
+|       +---ba
+|       |       a47e81c62de754cd2d601213b5c4e276166fc8
+|       |       
+|       +---43
+|       |       2fbe34ccdd6a183fea949902c6492f53cb44a1
+|       |       
+|       +---01
+|       |       134f432cb85b94603c496a638ce7d7931db319
+|       |       
+|       +---de
+|       |       fa4d1179520465fd49d7f936bc96d5b8b549d9
+|       |       
+|       \---22
+|               d531fffa39f15be6e5567a14c70c37c60a98e5
+|               
++---qbrick
+|   \---qbrick
+|           QBRICK-2007-32BITS.arx
+|           QBRICK-2009-64BITS.arx
+|           QBRICK-2010-2011-2012-32BITS.arx
+|           QBRICK-2010-2011-2012-64BITS.arx
+|           QBRICK-2013-2014-32BITS.arx
+|           QBRICK-2013-2014-64BITS.arx
+|           Qbrick-2015-2016-64BITS.arx
+|           Qbrick-2017-64BITS.arx
+|           Qbrick-2018-64BITS.arx
+|           Qbrick-2019-2020-64BITS.arx
+|           Qbrick-2021-2022-64BITS.arx
+|           Qbrick-BRX14-32BITS.brx
+|           Qbrick-BRX14-64BITS.brx
+|           Qbrick-BRX15-32BITS.brx
+|           Qbrick-BRX15-64BITS.brx
+|           Qbrick.brx
+|           QBrick2015-2016-32BITS.arx
+|           QBrick2017-32BITS.arx
+|           QBrick2018-32BITS.arx
+|           QBrick2019-2020-32BITS.arx
+|           QBRICK-2013-2014-32BITS.zip
+|           
++---cropping
+|       Document_20230309_0002.pdf
+|       Document_20230309_0001.pdf
+|       2023-03-10 cropping images.xlsx
+|       
++---PathAverage
++---Rolling_ball
+|       Rolling_ball.LSP
+|       
++---Cube2Equirectangular
+|       corrected_dice_layout.jpg
+|       dice_layout.jpg
+|       image.jpg
+|       script.py
+|       test.py
+|       V4.jpg
+|       
++---AutoCAD
+|   +---LispTools
+|   |       BreakUp.lsp
+|   |       TLENGTH____US_v101.lsp
+|   |       PLDiet.lsp
+|   |       ROTREF.lsp
+|   |       WPLINEPOLY.lsp
+|   |       incircle.lsp
+|   |       createArch.lsp
+|   |       PolylineDimWidthHeight.lsp
+|   |       InsertBlock.lsp
+|   |       OffsetClosedPolylinesToPoint.lsp
+|   |       OffsetClosedPolylinesToLayer.lsp
+|   |       InsertBlockArchi.lsp
+|   |       insertPileCaps.lisp
+|   |       createCircles.lsp
+|   |       PathAverage.lsp
+|   |       
+|   +---LayerGenerators
+|   |       CreateExtDevLayers.lsp
+|   |       CreateBldgLayers.lsp
+|   |       
+|   +---Annotation
+|   |       AD-Automatic Dimension Autocad.lsp
+|   |       CreateLegend.lsp
+|   |       CreateLeadersWithCounter.lsp
+|   |       
+|   +---Tools
+|   |       AD-Automatic-Dimension-Autocad.rar
+|   |       
+|   \---Plugins
+|           RevPolyline.VLX
+|           
++---ExcelTools
+|   +---Macros
+|   |   +---Cleaners
+|   |   |       FixAttendance.bas
+|   |   |       CleanPage.bas
+|   |   |       
+|   |   +---Formatters
+|   |   |       PageFormatting.bas
+|   |   |       FormatLBH.bas
+|   |   |       
+|   |   \---Utilities
+|   |           Module5.bas
+|   |           SplitSheetToNewFile.bas
+|   |           DuplicateColumn.bas
+|   |           DuplicatesCheck.bas
+|   |           FileDuplicates.bas
+|   |           DoAllWorkbook.bas
+|   |           ReplicateHeadingandDeleteRows.bas
+|   |           DeleteRowIfValuesMissing.bas
+|   |           DoAllWorkbookWorksheets.bas
+|   |           Standardize-column.bas
+|   |           HighlightLine.bas
+|   |           NumbersToWords.xlsm
+|   |           
+|   \---VisualTools
+|           AreaUnderCurve.xls
+|           Split column to lines.xlsm
+|           Concatenate Macro.xlsm
+|           Sample Quantities Filing Form.xlsx
+|           Template for appointment scheduling.xlsm
+|           TT12 - Excel Financial Calculator.xlsm
+|           vlc-rem-audio.xlsx
+|           npv.xlsx
+|           
++---FinancialTools
+|   +---Costing
+|   |       Nilga Costing - check.xlsm
+|   |       Nilga Costing Sheet.xlsm
+|   |       
+|   +---Budgeting
+|   |       Budgeting and Invoicing Streamside.zip
+|   |       
+|   \---EOQ
+|           EOQ of Cement v1.xlsm
+|           
++---ProjectTrackers
+|   +---4D Planning
+|   |       4D v1.xlsm
+|   |       
+|   +---Inventory
+|   |   |   Dual Toggle Version with Stock Notification Week 1.xlsm
+|   |   |   
+|   |   \---Repeat-Stock
+|   \---Visuals
+|           Excel-Timeline-Template.xlsx
+|           
++---Optimization
+|   \---BinPacking
+|           BPP_Spreadsheet_Solver_v2.02.xlsm
+|           BPP_Spreadsheet_Solver_Users_manual.pdf
+|           
++---MediaTools
+|       magick.txt
+|       subfolder-resizing.txt
+|       manage multiple images in folders.txt
+|       FILERENAMES.xlsx
+|       MFFMPEG-Cut.xlsx
+|       flatten.cmd
+|       resize-all-photos.sh
+|       ffmpeg-gif.sh
+|       covidcrop.txt
+|       ffmpeg-frames.sh
+|       imagemagick.sh
+|       common-commands.sh
+|       
++---SystemUtilities
+|       Shutdown in 2 hrs.lnk
+|       Prevent Shutdown.lnk
+|       AntoniaPetrovaTotalLength.msi
+|       
++---Diagrams
+|       Lines Template.pdf
+|       
++---Scripts
+|       filelist2.xlsx
+|       filelist.txt
+|       empty_folder_delete.bat
+|       filelist code.bat
+|       filename.ps1
+|       npm-global-install.sh
+|       robostack-download.sh
+|       stratongroup-downloads.sh
+|       count-files-folder.ps1
+|       
+\---Uncategorized
+        relevant-suffix.xlsx
+        some.bat
+        fitting caption for photos
+        
